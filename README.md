@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## HackCheatBlog
 
-You can use the [editor on GitHub](https://github.com/jarvarbin/jarvarbin.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Todo el contenido publicado en este blog, hacking tricks, techniques and 'lo que sea' que he ido y voy aprendiendo en CTF, noticias, investigaciones y la vida real
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
