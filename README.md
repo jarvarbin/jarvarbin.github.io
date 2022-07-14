@@ -1,4 +1,4 @@
-## HackCheatBlog
+## HackTrickBlog
 
 Todo el contenido publicado en este blog, hacking tricks, techniques and 'lo que sea' que he ido y voy aprendiendo en CTF, noticias, investigaciones y la vida real
 
