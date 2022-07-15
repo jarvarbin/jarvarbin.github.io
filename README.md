@@ -1,5 +1,6 @@
 ## HackTrickBlog
 
+Me encanta <3 el desarrollo de software y la ciberseguridad!
 Todo el contenido publicado en este blog, hacking tricks, techniques and 'lo que sea' que he ido y voy aprendiendo en CTF, noticias, investigaciones y la vida real
 
 
@@ -27,10 +28,10 @@ Syntax highlighted code block
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+### Puertos
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jarvarbin/jarvarbin.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Metodologías
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
