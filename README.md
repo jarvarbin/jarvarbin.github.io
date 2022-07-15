@@ -1,12 +1,12 @@
-## HackTrickBlog
+## HackTrickBlog - ¿Qué es?
 
 Me encanta <3 el desarrollo de software y la ciberseguridad!
-Todo el contenido publicado en este blog, hacking tricks, techniques and 'lo que sea' que he ido y voy aprendiendo en CTF, noticias, investigaciones y la vida real
+Todo el contenido publicado en este blog son los conocimientos que he ido adquiriendo junto a todo aquello que voy aprendiendo en CTF, noticias, investigaciones y la vida real
 
 
-### Markdown
+### HackTrickBlog - ¿Qué encontrarás?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Una gran colección de tecnicas, referencias y distintas experiencias :)
 
 ```markdown
 Syntax highlighted code block
