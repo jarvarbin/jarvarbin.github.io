@@ -1,5 +1,6 @@
 layout: page
 title: "WINDOWS"
-permalink: /hacktrickblog/
+permalink: /hacktrickblog/windows
+
 
 Apartado de windows
