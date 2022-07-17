@@ -96,3 +96,22 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ### Tecnologías
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+<html>
+  <body>
+    <script>
+      (async () => {
+        const response = await fetch('https://api.github.com/repos/:user/:repo/contents/');
+        const data = await response.json();
+        let htmlString = '<ul>';
+        
+        for (let file of data) {
+          htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
+        }
+
+        htmlString += '</ul>';
+        document.getElementsByTagName('body')[0].innerHTML = htmlString;
+      })()
+    </script>
+  <body>
+</html>
