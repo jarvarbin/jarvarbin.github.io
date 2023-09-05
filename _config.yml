@@ -3,8 +3,3 @@ description: Jarvarbins
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
-menu:
-  - name: "Home"
-    link: "/"
-  - name: "Writings"
-    link: "/writings/"
