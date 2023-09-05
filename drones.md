@@ -69,8 +69,6 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
 ```
 
 
-## Ataques Demostrados
-
 &nbsp;   
 
 ### Objetivo 1: Denegación de Servicio
