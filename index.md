@@ -120,7 +120,9 @@ This section discusses the role of drones in the current technological landscape
      ~`-----------------------------------------`~
 
 ```
+
 ---
+
 ### Natural Language Processing with News Tokenization, Crawling, and Classification
 The suite incorporates an NLP engine focused on tokenization, crawling, and classification of news articles related to cybersecurity and drone threats. This engine can help organizations stay updated on the evolving landscape of cybersecurity threats.
 
@@ -152,7 +154,6 @@ The suite incorporates an NLP engine focused on tokenization, crawling, and clas
                `|/-.      \ /   \ /,---`\         GoPhish
                 /   `._____V_____V'
                            '     '
-
 ```
 ---
 
@@ -186,8 +187,6 @@ An integrated notification system for the Gophish framework is included, designe
     / , ~ . ~ \ , ` .  ^  `  , . ^   .   , ` .`-,___,---,__            ``
   /` ` . ~ . ` `\ `  ~  ,  .  ,  `  ,  . ~  ^  ,  .  ~  , .`~---,___
 /` . `  ,  . ~ , \  `  ~  ,  .  ^  ,  ~  .  `  ,  ~  .  ^  ,  ~  .  `-,
-
-
 ```
 ---
 ### Python RAT for Windows: Audio and Screen Capture
