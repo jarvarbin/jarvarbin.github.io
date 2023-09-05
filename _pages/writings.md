@@ -1,4 +1,9 @@
-
+s
+---
+layout: page
+title: Writings
+permalink: /writings/
+---
 Aquí puedes listar tus escritos.
 
 - [Artículo 1](#)
