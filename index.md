@@ -8,9 +8,15 @@ Before becoming a pentester in a red team, I worked in various capacities where 
 
 Just like my earlier experiences where I was involved in various research and development roles, my current focus is on proactively identifying vulnerabilities and enhancing system security. Outside of work, I am an enthusiastic individual who enjoys drones, technology, and electronics.
 
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
 
 ---
-
+&nbsp;  
+&nbsp;  
+&nbsp;  
 ### Writings
 
 - [Dronea2: Drone Control and Cybersecurity](#dronea2-drone-control-and-cybersecurity)
@@ -19,17 +25,34 @@ Just like my earlier experiences where I was involved in various research and de
 - [Email Notification for Gophish](#email-notification-for-gophish)
 - [Python RAT for Windows](#python-rat-for-windows)
 
----
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
 
+---
+&nbsp;  
+&nbsp;  
+&nbsp; 
 ### Latest GitHub Repositories
 
 - [Email Notification for Gophish](https://github.com/jarvarbin/gophish-mail-alert) - A brief description.
 - [Repository 2](https://github.com/yourusername/repository2) - A brief description.
 
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+
 ---
+&nbsp;  
+&nbsp;  
+&nbsp; 
 
-### Last Post
+### Lastes Posts
 
+&nbsp;  
+&nbsp; 
 ```
 
                \ /                                          \   /
@@ -52,7 +75,8 @@ Just like my earlier experiences where I was involved in various research and de
 [Dronea2: Drone Control and Cybersecurity](#dronea2-drone-control-and-cybersecurity)
 
 ---
-
+&nbsp;  
+&nbsp; 
 ```
  .----------------.  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. || .--------------. |
@@ -72,7 +96,8 @@ Just like my earlier experiences where I was involved in various research and de
 This section discusses the role of drones in the current technological landscape, along with the potential risks and abuses. It also explores how IPFS (InterPlanetary File System) can be both an asset and a risk, especially in decentralized networks.
 [IPFS: Benefits, Uses, and Abuses](#ipfs-benefits-uses-and-abuses)
 ---
-
+&nbsp;  
+&nbsp; 
 ```
 
                \
@@ -96,7 +121,8 @@ This section discusses the role of drones in the current technological landscape
 The suite incorporates an NLP engine focused on tokenization, crawling, and classification of news articles related to cybersecurity and drone threats. This engine can help organizations stay updated on the evolving landscape of cybersecurity threats.
 
 ---
-
+&nbsp;  
+&nbsp; 
 ```
                           .
                           A       ;
@@ -130,7 +156,8 @@ The suite incorporates an NLP engine focused on tokenization, crawling, and clas
 An integrated notification system for the Gophish framework is included, designed to alert administrators via email about potential phishing attacks. This feature enhances the ability to respond to security threats in a timely manner.
 
 ---
-
+&nbsp;  
+&nbsp; 
 ```
 
            ,   ,
