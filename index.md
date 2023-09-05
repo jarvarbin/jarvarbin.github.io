@@ -19,3 +19,15 @@ Just like my earlier experiences where I was involved in various research and de
 
 - [Repository 1](https://github.com/jarvarbin/gophish-mail-alert) - A brief description.
 - [Repository 2](https://github.com/yourusername/repository2) - A brief description.
+
+---
+layout: page  # Esto aplica la plantilla de página.
+title: Writings
+permalink: /writings/  # URL personalizada para esta página.
+---
+s
+Aquí puedes listar tus escritos.
+
+- [Artículo 1](#)
+- [Artículo 2](#)
+- [Artículo 3](#)
