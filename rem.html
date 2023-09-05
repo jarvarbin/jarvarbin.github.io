@@ -6,162 +6,190 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <style>
-      nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-    
-      nav ul li {
-        float: left;
-      }
-    
-      nav ul li a {
-        display: block;
-        padding: 14px 16px;
-        text-align: center;
-        text-decoration: none;
-      }
+    <script>let max_particles = 1000
 
-    </style>
-    {% include head-custom.html %}
-    {% seo %}
+      var tela = document.createElement('canvas');
+          tela.width = $(window).width();
+          tela.height = $(window).height();
+          $("body").append(tela);
+      
+      var canvas = tela.getContext('2d');
+      
+      class Particle{
+        constructor(canvas, progress){
+          let random = Math.random()
+          this.progress = 0;
+          this.canvas = canvas;
+      
+          this.x = ($(window).width()/2)  + (Math.random()*200 - Math.random()*200)
+          this.y = ($(window).height()/2) + (Math.random()*200 - Math.random()*200)
+          this.s = Math.random() * 1;
+          this.a = 0
+          this.w = $(window).width()
+          this.h = $(window).height()
+          this.radius = random > .2 ? Math.random()*1 : Math.random()*3
+          this.color  = random > .2 ? "#2E4765" : "#b5ff00"
+          this.radius = random > .8 ? Math.random()*2 : this.radius
+          this.color  = random > .8 ? "#2E4765" : this.color
+      
+          // this.color  = random > .1 ? "#ffae00" : "#f0ff00" // Alien
+          this.variantx1 = Math.random()*300
+          this.variantx2 = Math.random()*400
+          this.varianty1 = Math.random()*100
+          this.varianty2 = Math.random()*120
+        }
+      
+        render(){
+          this.canvas.beginPath();
+          this.canvas.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
+          this.canvas.lineWidth = 2;
+          this.canvas.fillStyle = this.color;
+          this.canvas.fill();
+          this.canvas.closePath();
+        }
+      
+        move(){
+          this.x += Math.cos(this.a) * this.s;
+          this.y += Math.sin(this.a) * this.s;
+          this.a += Math.random() * 0.8 - 0.4;
+      
+          if(this.x < 0 || this.x > this.w - this.radius){
+            return false
+          }
+      
+          if(this.y < 0 || this.y > this.h - this.radius){
+            return false
+          }
+          this.render()
+          this.progress++
+          return true
+        }
+      }
+      
+      let particles = []
+      let init_num  = popolate(max_particles)
+      function popolate(num){
+        for (var i = 0; i < num; i++) {
+          setTimeout(
+            function(){
+              particles.push(new Particle(canvas, i))
+            }.bind(this)
+          ,i*20)
+        }
+        return particles.length
+      }
+      
+      function clear(){
+        canvas.globalAlpha=0.05;
+        canvas.fillStyle='#000155';
+        canvas.fillStyle='#000021'; // Alien
+        canvas.fillRect(0, 0, tela.width, tela.height);
+        canvas.globalAlpha=1;
+      }
+      
+      function update(){
+        particles = particles.filter(function(p) {
+          return p.move()
+        })
+        if(particles.length < init_num){
+          popolate(1)
+        }
+        clear();
+        requestAnimationFrame(update.bind(this))
+      }
+      update()
+      </script>
+       <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600');
+    
+        .more-pens {
+          position: fixed;
+          left: 20px;
+          bottom: 20px;
+          z-index: 10;
+          font-family: "Montserrat";
+          font-size: 12px;
+        }
+    
+        a.white-mode, 
+        a.white-mode:link, 
+        a.white-mode:visited, 
+        a.white-mode:active {
+          font-family: "Montserrat";
+          font-size: 12px;
+          text-decoration: none;
+          background: #212121;
+          padding: 4px 8px;
+          color: #f7f7f7;
+        }
+    
+        a.white-mode:hover {
+          background: #edf3f8;
+          color: #212121;
+        }
+    
+        body {
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          width: 100%;
+          height: 100%;
+          background: #000000;
+        }
+    
+        .title {
+          z-index: 10;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translateX(-50%) translateY(-50%);
+          font-family: "Montserrat";
+          text-align: center;
+          width: 100%;
+        }
+    
+        .title h1 {
+          position: relative;
+          color: #EEEEEE;
+          font-weight: 600;
+          font-size: 60px;
+          padding: 0;
+          margin: 0;
+          line-height: 1;
+          text-shadow: 0 0 30px #000155;
+        }
+    
+        .title h1 span {
+          font-weight: 600;
+          padding: 0;
+          margin: 0;
+          color: #BBB;
+        }
+    
+        .title h3 {
+          font-weight: 200;
+          font-size: 20px;
+          padding: 0;
+          margin: 0;
+          line-height: 1;
+          color: #EEEEEE;
+          letter-spacing: 2px;
+          text-shadow: 0 0 30px #000155;
+        }
+      </style>
   </head>
   <body>
     <header>
-      <div class="container">
-        <!--<a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a> -->
-        <img style="height:50px" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenl1eDBqZTZ6eXVkM2R1bXQ5Ym15M3Z2cTFxeW4xdGE0bXdwamt1NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/lVnJ5VnYJsuA7j1uCg/giphy.gif" alt="Tu imagen" style="float:left; margin-right:10px;">
-
-        <!--<h1 style="color: #b5e853;">{{ site.description | default: site.github.project_tagline }}</h1> -->
-        <h1 style="color: #b5e853;">JarVarBins</h1>
-
-        <section id="downloads">
-          {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
-          {% endif %}
-          <a href="/" class="btn" style="background-color: #98d5f1;" style=" font-family: cursive;">Home</a>
-          <a href="/writings" class="btn" style="background-color: #b5e83b;" style=" font-family: cursive;">Writings</a>
-          <a href="{{ site.github }}" class="btn btn-github"style="background-color: #e76f98;" style=" font-family: cursive;"><span class="icon"></span>Go to GitHub</a>
-        </section>
-      </div>
+      
     </header>
-    <div class="container">
-      <section id="main_content">
-
-      </section>
+    <div class="title">
+      <h3>PLASM.it - 2017</h3>
+      <h1>ALIEN</h1>
+      <h3>Deviation of microcosm</h3>
     </div>
-    <style>
-
-      .circles {
-            width: 60px;
-            height: 20px;
-          }
-
-          .fractals {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-          }
-
-          .fractal {
-            width: 60px;
-            height: 20px;
-            background-color: #b5e83b0f;
-            border-radius: 20px;
-            display: block;
-            position: relative; 
-            animation-name: spiral;
-            animation-duration: 10s;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-            will-change: transform;
-          }
-
-          @keyframes spiral {
-              from {transform: translate3d(0,10%,0) rotate(0deg) scale(0);}
-              to {transform: translate3d(0,400%,0) rotate(60deg) scale(1.3);}
-          }
-
-    </style>
-
-    <div class="fractals">
-
-      <i class="fractal">
-          <i class="fractal">
-              <i class="fractal">
-                <i class="fractal">
-                  <i class="fractal">
-                    <i class="fractal">
-                      <i class="fractal">
-                        <i class="fractal">
-                          <i class="fractal">
-                            <i class="fractal">
-                              <i class="fractal">
-                                <i class="fractal">
-                                  <i class="fractal">
-                                    <i class="fractal">
-                                      <i class="fractal">
-                                        <i class="fractal">
-                                          <i class="fractal">
-                                          <i class="fractal">
-                                              <i class="fractal">
-                                                <i class="fractal">
-                                                  <i class="fractal">
-                                                    <i class="fractal">
-                                                      <i class="fractal">
-                                                        <i class="fractal">
-                                                          <i class="fractal">
-                                                            <i class="fractal">
-                                                              <i class="fractal">
-                                                                <i class="fractal">
-                                                                  <i class="fractal">
-                                                                    <i class="fractal">
-                                                                      <i class="fractal">
-                                                                        <i class="fractal">
-                                                                          <i class="fractal">
-                                                                          </i>
-                                                                        </i>
-                                                                      </i>
-                                                                    </i>
-                                                                  </i>
-                                                                </i>
-                                                              </i>
-                                                            </i>
-                                                          </i>
-                                                        </i>
-                                                      </i>
-                                                    </i>
-                                                  </i>
-                                                </i>
-                                              </i>
-                                          </i>
-    
-                                          </i>
-                                        </i>
-                                      </i>
-                                    </i>
-                                  </i>
-                                </i>
-                              </i>
-                            </i>
-                          </i>
-                        </i>
-                      </i>
-                    </i>
-                  </i>
-                </i>
-              </i>
-          </i>
-      </i>
-    
+    <div class="more-pens">
+      <a target="_blank" href="https://codepen.io/plasm/" class="white-mode">VIEW OTHER PENS</a>
+      <a target="_blank" href="https://codepen.io/collection/nZpPbz/" class="white-mode">VIEW OTHER PARTICLES</a>
     </div>
   </body>
 </html>
