@@ -73,7 +73,7 @@ Este código se proporciona con fines educativos y de demostración. No se debe 
 
 ## Crear .exe:
 
- - python3 C:\Users\XXXXXXXXXXX\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\PyInstaller\ --noconsole --onefile .\GOODmaster.py
+ - python3 C:\Users\XXXXXXXXXXX\....\PyInstaller\ --noconsole --onefile .\GOODmaster.py
  to exe py -3.7 -m PyInstaller --onefile 
- - python3 c:\users\XXXXXXXXXXX\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\PyInstaller\ --noconsole --onefile c:/Users/XXXXXXXXXx/Documents/ratea2.py
+ - python3 c:\users\XXXXXXXXXXX\....PyInstaller\ --noconsole --onefile c:/Users/XXXXXXXXXx/Documents/ratea2.py
 
