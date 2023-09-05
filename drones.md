@@ -3,7 +3,7 @@
 ---
 layout: page
 title: Drones
-permalink: /writing/drones/
+permalink: /drones/
 ---
 
 
