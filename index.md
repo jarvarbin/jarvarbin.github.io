@@ -37,12 +37,11 @@ Just like my earlier experiences where I was involved in various research and de
 ### Latest GitHub Repositories
 
 - [Email Notification for Gophish](https://github.com/jarvarbin/gophish-mail-alert) - Script to manage GoPhish campaigns and notify via email of any event
-- [Linkedin Connection Booster](https://github.com/jarvarbin/Linkedin-Connection-Booster) - This script is designed to manage targets in a system, allowing to remove those that have not been scanned or those that are old based on a deadline.
+- [Linkedin Connection Booster](https://github.com/jarvarbin/Linkedin-Connection-Booster) - A simple JavaScript automation script for increasing your LinkedIn connections by sending multiple connection requests.
 - [Polluted Prototype](https://github.com/jarvarbin/Prototype-Pollution-Test-jQuery) - The code snippet tests for prototype pollution vulnerability in JavaScript objects using jQuery's extend function. It alerts "Vulnerable 🚨 :(" if the prototype is polluted, otherwise it alerts "Nice! :) protected against Prototype Pollution".
 - [Acunetix API delete targets](https://github.com/jarvarbin/Acunetix-API-delete-targets) - This script is designed to manage targets on a system, allowing to remove those that have not been scanned or those that are old based on a deadline.
 - [Repository 2](https://github.com/yourusername/repository2) - A brief description.
 - [Repository 2](https://github.com/yourusername/repository2) - A brief description.
-
 
 
 &nbsp;  
