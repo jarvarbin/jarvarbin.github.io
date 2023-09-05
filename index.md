@@ -47,9 +47,6 @@ Just like my earlier experiences where I was involved in various research and de
 &nbsp;  
 &nbsp;   
 &nbsp;  
-
----
-&nbsp;  
 &nbsp;  
 
 ### Lastes Posts
@@ -76,7 +73,10 @@ Just like my earlier experiences where I was involved in various research and de
 [Dronea2: Drone Control and Cybersecurity](#dronea2-drone-control-and-cybersecurity)
 
 ---
+
 &nbsp;  
+
+---
 ```
  .----------------.  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. || .--------------. |
@@ -91,12 +91,15 @@ Just like my earlier experiences where I was involved in various research and de
  '----------------'  '----------------'  '----------------'  '----------------' 
 
 ```
-
+---
 ### Benefits, Abuses, and the Rise of Decentralized Threats (IPFS)
 This section discusses the role of drones in the current technological landscape, along with the potential risks and abuses. It also explores how IPFS (InterPlanetary File System) can be both an asset and a risk, especially in decentralized networks.
 [IPFS: Benefits, Uses, and Abuses](#ipfs-benefits-uses-and-abuses)
+
 ---
+
 &nbsp;  
+
 ```
 
                \
@@ -115,7 +118,7 @@ This section discusses the role of drones in the current technological landscape
      ~`-----------------------------------------`~
 
 ```
-
+---
 ### Natural Language Processing with News Tokenization, Crawling, and Classification
 The suite incorporates an NLP engine focused on tokenization, crawling, and classification of news articles related to cybersecurity and drone threats. This engine can help organizations stay updated on the evolving landscape of cybersecurity threats.
 
@@ -148,7 +151,7 @@ The suite incorporates an NLP engine focused on tokenization, crawling, and clas
                            '     '
 
 ```
-
+---
 
 ### Email Notification System for Gophish
 An integrated notification system for the Gophish framework is included, designed to alert administrators via email about potential phishing attacks. This feature enhances the ability to respond to security threats in a timely manner.
@@ -182,7 +185,7 @@ An integrated notification system for the Gophish framework is included, designe
 
 
 ```
-
+---
 ### Python RAT for Windows: Audio and Screen Capture
 The suite includes a Remote Access Trojan (RAT) written in Python for Windows platforms. This tool is capable of capturing audio, screenshots, and photos, which can be exfiltrated via email. It serves as an educational tool to demonstrate vulnerabilities in systems.
 
