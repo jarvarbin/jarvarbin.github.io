@@ -53,9 +53,7 @@ Just like my earlier experiences where I was involved in various research and de
 &nbsp;  
 
 ### Lastes Posts
-&nbsp;  
 
-&nbsp;  
 ```
 
                \ /                                          \   /
