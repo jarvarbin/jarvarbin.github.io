@@ -18,17 +18,38 @@ All posts:
 - [Python RAT for Windows](#python-rat-for-windows)
 
 
+---
+
 ## Dronea2: Control of Drones and Cybersecurity
-`Dronea2` is a specialized software aimed at providing more secure and versatile drone control, particularly targeting DJI Tello drones. The project integrates functionalities for drone piloting, real-time facial detection through OpenCV, and a comprehensive set of cybersecurity tools to detect and mitigate drone-specific attacks.
+`Dronea2` is a drone control software with integrated cybersecurity features. Targeting specifically DJI Tello drones, this suite offers piloting capabilities, real-time facial detection via OpenCV, and cybersecurity tools to detect and mitigate drone-specific attacks.
 
-## Benefits, Abuses, and the Rise of Decentralized Threats
-Drones have brought about incredible benefits in various industries such as agriculture, mapping, and delivery services. However, their decentralized nature also makes them a target for malicious uses like unauthorized surveillance and payload delivery. This project aims to address these threats and provide mitigation strategies.
+---
 
-## Natural Language Processing with News and Elasticsearch
-The project incorporates a Natural Language Processing (NLP) engine powered by Elasticsearch. It collects news articles related to drone threats and cybersecurity, processes them, and provides insightful analytics. This can be instrumental for organizations looking to understand the evolving threat landscape.
+## Benefits, Abuses, and the Rise of Decentralized Threats (IPFS)
+This section discusses the role of drones in the current technological landscape, along with the potential risks and abuses. It also explores how IPFS (InterPlanetary File System) can be both an asset and a risk, especially in decentralized networks.
 
-## Email Notification for Gophish
-Gophish notifications have been integrated into the system. Upon the detection of any unauthorized activities, an automated email alert is sent to the administrators, thereby facilitating rapid response to potential threats.
+---
 
-## Python RAT for Windows
-A Remote Access Trojan (RAT) written in Python for Windows is also part of this suite. While primarily aimed for educational and research purposes, it highlights the vulnerabilities that can be exploited in drone control systems running on Windows platforms.
+## Natural Language Processing with News Tokenization, Crawling, and Classification
+The suite incorporates an NLP engine focused on tokenization, crawling, and classification of news articles related to cybersecurity and drone threats. This engine can help organizations stay updated on the evolving landscape of cybersecurity threats.
+
+---
+
+## Email Notification System for Gophish
+An integrated notification system for the Gophish framework is included, designed to alert administrators via email about potential phishing attacks. This feature enhances the ability to respond to security threats in a timely manner.
+
+---
+
+## Python RAT for Windows: Audio and Screen Capture
+The suite includes a Remote Access Trojan (RAT) written in Python for Windows platforms. This tool is capable of capturing audio, screenshots, and photos, which can be exfiltrated via email. It serves as an educational tool to demonstrate vulnerabilities in systems.
+
+---
+
+## License
+This project is under the MIT License. See the [LICENSE.md](LICENSE.md) file for more details.
+Feel free to tailor this content to better match your project's specifics.
+
+
+
+
+
