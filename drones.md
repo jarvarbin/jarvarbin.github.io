@@ -103,9 +103,6 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
 
 &nbsp;   
 
-### Conclusión
-Los drones, como el DJI Tello, pueden ser vulnerables a varios tipos de ataques cibernéticos que pueden tener graves consecuencias. Es crucial abordar estas vulnerabilidades para garantizar una operación segura. Además, los fabricantes deben incorporar medidas de seguridad más robustas en el diseño de estos dispositivos.
-
 
 # Propuesta Framework
 
