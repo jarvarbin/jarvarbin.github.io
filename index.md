@@ -16,7 +16,7 @@ Just like my earlier experiences where I was involved in various research and de
 
 ## Writings
 
-- [Dronea2: Drone Control and Cybersecurity](#dronea2-drone-control-and-cybersecurity)
+- [Dronea2: Drone Control and Cybersecurity](#drones)
 - [IPFS: Benefits, Uses, and Abuses](#ipfs-benefits-uses-and-abuses)
 - [Natural Language Processing with News and Elasticsearch](#natural-language-processing-with-news-and-elasticsearch)
 - [Email Notification for Gophish](#email-notification-for-gophish)
