@@ -9,7 +9,7 @@ permalink: /writings/
 
 [Aquí están mis escritos](/writings/)
 
-All posts:
+All posts - r:
 
 - [Droneados: Hacking DJI](# )
 - [IPFS: Beneficio, usos y abusos ](#)
