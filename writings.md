@@ -5,7 +5,8 @@ layout: page
 title: Writings
 permalink: /writings/
 ---
-s
+
+
 [Aquí están mis escritos](/writings/)
 
 All posts:
