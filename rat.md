@@ -1,4 +1,4 @@
-# Python-RAT
+# Python RAT 2 exe
 Python RAT for Windows
 
 ![Alt text](image-1.png)
