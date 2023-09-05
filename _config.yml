@@ -1,5 +1,10 @@
 title: JarVarBin
 description: Cybersecurity <3
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
+menu:
+  - name: "Home"
+    link: "/"
+  - name: "Writings"
+    link: "/writings/"
