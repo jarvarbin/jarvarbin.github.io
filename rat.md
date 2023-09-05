@@ -1,8 +1,7 @@
 # Python-RAT
 Python RAT for Windows
 
-![Alt text](image.png)
-
+s
 
 # Descripción del Proyecto
 
