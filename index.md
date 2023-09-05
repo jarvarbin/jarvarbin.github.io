@@ -22,6 +22,7 @@ Just like my earlier experiences where I was involved in various research and de
 - [Natural Language Processing with News and Elasticsearch](#natural-language-processing-with-news-and-elasticsearch)
 - [Email Notification for Gophish](#email-notification-for-gophish)
 - [Python RAT for Windows](rat)
+- [Trasncribiendo offline de youtube a texto](rat)
 - [Polluted Prototype](#python-rat-for-windows)
 - [Linkedin Connection Booster](#python-rat-for-windows)
 - [Acunetix API delete targets](#python-rat-for-windows)
