@@ -4,7 +4,7 @@ layout: page
 title: Writings
 permalink: /writing/
 ---
-Aquí puedes listar tus escritos.
+Aquí puedes listar tus escritos.wdwd
 
 - [Artículo 1](#)
 - [Artículo 2](#)
