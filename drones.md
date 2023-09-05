@@ -36,7 +36,7 @@ Tercero, la autonomía de los drones permite su uso en operaciones prolongadas y
 
 Por último, los drones pueden ser más económicos y rápidos de producir que otros sistemas militares, lo que permite a las fuerzas armadas adaptarse más rápidamente a nuevas amenazas y escenarios. Estas ventajas hacen de los drones un elemento vital en la evolución hacia formas de conflicto más adaptativas y dinámicas, como la guerra mosaico y multidominio.
 
-### Resumen de Seguridad en Drones para Jóvenes: Caso de Estudio con Tello de DJI
+### Resumen de Seguridad en Drones: Caso de Estudio con DJI
 
 Los drones han capturado la imaginación de personas de todas las edades, ofreciendo una mezcla única de tecnología y entretenimiento. Sin embargo, también presentan riesgos de ciberseguridad que a menudo son pasados por alto. 
 
@@ -53,15 +53,43 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
     - 8890/tcp para datos de estado
     - 11111/udp para transmisión de video
 
-#### Vulnerabilidades Identificadas
-Se han identificado y evaluado diversas vulnerabilidades, y se han clasificado según su gravedad utilizando la puntuación CVSS:
 
-- **Denegación de Servicio**: CVSS 7.7
-- **Suplantación de Identidad ARP**: CVSS 7.1
-- **Interceptación de Video**: CVSS 7.7
-- **Inyección de Instrucciones**: CVSS 7.8
+## Vulnerabilidades Identificadas
+| Amenaza                   | Riesgo | CVSS                       |
+| ------------------------- | ------ | -------------------------- |
+| Denegación de servicio    | 7.7    | AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H |
+| Suplantación de identidad ARP | 7.1 | AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N |
+| Intercepción de video     | 7.7    | AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H |
+| Inyección de instrucciones | 7.8    | AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H |
 
-Estos hallazgos destacan la necesidad de educar tanto a jóvenes como a adultos sobre los potenciales riesgos de ciberseguridad al operar drones y la importancia de medidas de seguridad robustas.
+## Ataques Demostrados
+
+### Objetivo 1: Denegación de Servicio
+- **Metodología**: Uso de `hping3` para enviar paquetes TCP de sincronización.
+- **Resultado**: Pérdida total de control sobre el dron y la transmisión de video.
+
+### Objetivo 2: Suplantación de ARP
+- **Descripción**: Identificar la posibilidad de un ataque Man-in-the-Middle (MiTM) mediante la explotación de la confianza en el protocolo ARP.
+- **Herramientas**: `arpspoof`, `dsniff`
+- **Metodología**:
+  1. **Activar Reenvío de Paquetes**:  
+     - Comando: `sysctl -w net.ipv4.ip_forward=1`
+  2. **Habilitar Monitoreo de Paquetes en la Interfaz wlanX**:  
+     - Comando: `arpspoof -i wlanX -t 192.168.10.2 192.168.10.1`
+  3. **Configurar Reenvío de Paquetes del Dron al Controlador**:  
+     - Comando: `arpspoof -i wlanX -t 192.168.10.1 192.168.10.2`
+- **Resultado**: Posibilidad de interceptar o manipular el tráfico de red entre el dron y su controlador, exponiendo la falta de medidas de seguridad contra ataques de envenenamiento ARP.
+
+### Objetivo 3: Intercepción de Video
+- **Metodología**: Uso de la herramienta `FFmpeg` para capturar el tráfico de video UDP.
+- **Resultado**: Éxito en la intercepción del video, aunque con alto riesgo para el atacante.
+
+### Objetivo 4: Inyección de Comandos
+- **Metodología**: Uso del SDK de Tello para enviar instrucciones maliciosas.
+- **Resultado**: Pérdida total del control sobre el dron y posibilidad de realizar acciones peligrosas.
+
+## Conclusión
+Los drones, como el DJI Tello, pueden ser vulnerables a varios tipos de ataques cibernéticos que pueden tener graves consecuencias. Es crucial abordar estas vulnerabilidades para garantizar una operación segura. Además, los fabricantes deben incorporar medidas de seguridad más robustas en el diseño de estos dispositivos.
 
 
 # Propuesta Framework
