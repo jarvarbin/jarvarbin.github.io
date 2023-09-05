@@ -1,7 +1,7 @@
 # Python-RAT
 Python RAT for Windows
 
-![DALL·E 2023-08-25 10 24 37 - un monton de gatos hackers cazando señales wifi](https://github.com/jarvarbin/Python-RAT/assets/93614373/ee8e28fd-1117-4921-8221-2686366889f3)
+![Alt text](image.png)
 
 
 # Descripción del Proyecto
