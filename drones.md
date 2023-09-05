@@ -36,6 +36,35 @@ Tercero, la autonomía de los drones permite su uso en operaciones prolongadas y
 
 Por último, los drones pueden ser más económicos y rápidos de producir que otros sistemas militares, lo que permite a las fuerzas armadas adaptarse más rápidamente a nuevas amenazas y escenarios. Estas ventajas hacen de los drones un elemento vital en la evolución hacia formas de conflicto más adaptativas y dinámicas, como la guerra mosaico y multidominio.
 
+### Resumen de Seguridad en Drones para Jóvenes: Caso de Estudio con Tello de DJI
+
+Los drones han capturado la imaginación de personas de todas las edades, ofreciendo una mezcla única de tecnología y entretenimiento. Sin embargo, también presentan riesgos de ciberseguridad que a menudo son pasados por alto. 
+
+#### Importancia de la Seguridad
+Dada la creciente popularidad de drones como el Tello de DJI, asequible y fácil de usar, es imperativo entender los riesgos de ciberseguridad asociados. Estos dispositivos utilizan WiFi para la comunicación entre el dron y el piloto, lo que podría abrir la puerta a varios tipos de ataques si no se toman medidas de seguridad adecuadas.
+
+#### Configuración y Comunicación
+El dron Tello se conecta a un smartphone a través de una aplicación. Inicialmente, crea un punto de acceso sin contraseña para que el teléfono se conecte. La aplicación permite comandos de vuelo, transmisión de video y almacenamiento de fotos. 
+
+- **Dirección IP del Dron**: 192.168.10.2
+- **Dirección IP del Piloto**: 192.168.10.2
+- **Puertos Utilizados**: 
+    - 8889/tcp para comandos
+    - 8890/tcp para datos de estado
+    - 11111/udp para transmisión de video
+
+#### Vulnerabilidades Identificadas
+Se han identificado y evaluado diversas vulnerabilidades, y se han clasificado según su gravedad utilizando la puntuación CVSS:
+
+- **Denegación de Servicio**: CVSS 7.7
+- **Suplantación de Identidad ARP**: CVSS 7.1
+- **Interceptación de Video**: CVSS 7.7
+- **Inyección de Instrucciones**: CVSS 7.8
+
+Estos hallazgos destacan la necesidad de educar tanto a jóvenes como a adultos sobre los potenciales riesgos de ciberseguridad al operar drones y la importancia de medidas de seguridad robustas.
+
+
+# Propuesta Framework
 
 ## Requisitos
 
