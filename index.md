@@ -38,7 +38,7 @@ Just like my earlier experiences where I was involved in various research and de
 
 - [Email Notification for Gophish](https://github.com/jarvarbin/gophish-mail-alert) - Script to manage GoPhish campaigns and notify via email of any event
 - [Linkedin Connection Booster](https://github.com/jarvarbin/Prototype-Pollution-Test-jQuery) - A brief description.
-- [Acunetix API delete targets](https://github.com/yourusername/repository2) - A brief description.
+- [Acunetix API delete targets](https://github.com/jarvarbin/Acunetix-API-delete-targets) - A brief description.
 - [Repository 2](https://github.com/yourusername/repository2) - A brief description.
 - [Repository 2](https://github.com/yourusername/repository2) - A brief description.
 
