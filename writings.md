@@ -31,20 +31,111 @@ All posts:
 
 ---
 
+```
+ .----------------.  .----------------.  .----------------.  .----------------. 
+| .--------------. || .--------------. || .--------------. || .--------------. |
+| |     _____    | || |   ______     | || |  _________   | || |    _______   | |
+| |    |_   _|   | || |  |_   __ \   | || | |_   ___  |  | || |   /  ___  |  | |
+| |      | |     | || |    | |__) |  | || |   | |_  \_|  | || |  |  (__ \_|  | |
+| |      | |     | || |    |  ___/   | || |   |  _|      | || |   '.___`-.   | |
+| |     _| |_    | || |   _| |_      | || |  _| |_       | || |  |`\____) |  | |
+| |    |_____|   | || |  |_____|     | || | |_____|      | || |  |_______.'  | |
+| |              | || |              | || |              | || |              | |
+| '--------------' || '--------------' || '--------------' || '--------------' |
+ '----------------'  '----------------'  '----------------'  '----------------' 
+
+```
+
 ### Benefits, Abuses, and the Rise of Decentralized Threats (IPFS)
 This section discusses the role of drones in the current technological landscape, along with the potential risks and abuses. It also explores how IPFS (InterPlanetary File System) can be both an asset and a risk, especially in decentralized networks.
 [IPFS: Benefits, Uses, and Abuses](#ipfs-benefits-uses-and-abuses)
 ---
+
+```
+
+               \
+                \\
+                 \%,     ,'     , ,.
+                  \%\,';/J,";";";;,,.
+     ~.------------\%;((`);)));`;;,.,-----------,~
+    ~~:           ,`;@)((;`,`((;(;;);;,`         :~~
+   ~~ :           ;`(@```))`~ ``; );(;));;,      : ~~
+  ~~  :            `X `(( `),    (;;);;;;`       :  ~~
+ ~~~~ :            / `) `` /;~   `;;;;;;;);,     :  ~~~~
+~~~~  :           / , ` ,/` /     (`;;(;;;;,     : ~~~~
+  ~~~ :          (o  /]_/` /     ,);;;`;;;;;`,,  : ~~~
+   ~~ :           `~` `~`  `      ``;,  ``;" ';, : ~~
+    ~~:                             `'   `'  `'  :~~
+     ~`-----------------------------------------`~
+
+```
 
 ### Natural Language Processing with News Tokenization, Crawling, and Classification
 The suite incorporates an NLP engine focused on tokenization, crawling, and classification of news articles related to cybersecurity and drone threats. This engine can help organizations stay updated on the evolving landscape of cybersecurity threats.
 
 ---
 
+```
+                          .
+                          A       ;
+                |   ,--,-/ \---,-/|  ,
+               _|\,'. /|      /|   `/|-.
+           \`.'    /|      ,            `;.
+          ,'\   A     A         A   A _ /| `.;
+        ,/  _              A       _  / _   /|  ;
+       /\  / \   ,  ,           A  /    /     `/|
+      /_| | _ \         ,     ,             ,/  \
+     // | |/ `.\  ,-      ,       ,   ,/ ,/      \/
+     / @| |@  / /'   \  \      ,              >  /|    ,--.
+    |\_/   \_/ /      |  |           ,  ,/        \  ./' __:..
+    |  __ __  |       |  | .--.  ,         >  >   |-'   /     `
+  ,/| /  '  \ |       |  |     \      ,           |    /
+ /  |<--.__,->|       |  | .    `.        >  >    /   (
+/_,' \\  ^  /  \     /  /   `.    >--            /^\   |
+      \\___/    \   /  /      \__'     \   \   \/   \  |
+       `.   |/          ,  ,                  /`\    \  )
+         \  '  |/    ,       V    \          /        `-\
+          `|/  '  V      V           \    \.'            \_
+           '`-.       V       V        \./'\
+               `|/-.      \ /   \ /,---`\         GoPhish
+                /   `._____V_____V'
+                           '     '
+
+```
+
+
 ### Email Notification System for Gophish
 An integrated notification system for the Gophish framework is included, designed to alert administrators via email about potential phishing attacks. This feature enhances the ability to respond to security threats in a timely manner.
 
 ---
+
+```
+
+           ,   ,
+         ,-`{-`/
+      ,-~ , \ {-~~-,
+    ,~  ,   ,`,-~~-,`,
+  ,`   ,   { {      } }                                             }/
+ ;     ,--/`\ \    / /                                     }/      /,/
+;  ,-./      \ \  { {  (                                  /,;    ,/ ,/
+; /   `       } } `, `-`-.___                            / `,  ,/  `,/
+ \|         ,`,`    `~.___,---}                         / ,`,,/  ,`,;
+  `        { {                                     __  /  ,`/   ,`,;
+        /   \ \                                 _,`, `{  `,{   `,`;`
+       {     } }       /~\         .-:::-.     (--,   ;\ `,}  `,`;
+       \\._./ /      /` , \      ,:::::::::,     `~;   \},/  `,`;     ,-=-
+        `-..-`      /. `  .\_   ;:::::::::::;  __,{     `/  `,`;     {
+                   / , ~ . ^ `~`\:::::::::::<<~>-,,`,    `-,  ``,_    }
+                /~~ . `  . ~  , .`~~\:::::::;    _-~  ;__,        `,-`
+       /`\    /~,  . ~ , '  `  ,  .` \::::;`   <<<~```   ``-,,__   ;
+      /` .`\ /` .  ^  ,  ~  ,  . ` . ~\~                       \\, `,__
+     / ` , ,`\.  ` ~  ,  ^ ,  `  ~ . . ``~~~`,                   `-`--, \
+    / , ~ . ~ \ , ` .  ^  `  , . ^   .   , ` .`-,___,---,__            ``
+  /` ` . ~ . ` `\ `  ~  ,  .  ,  `  ,  . ~  ^  ,  .  ~  , .`~---,___
+/` . `  ,  . ~ , \  `  ~  ,  .  ^  ,  ~  .  `  ,  ~  .  ^  ,  ~  .  `-,
+
+
+```
 
 ### Python RAT for Windows: Audio and Screen Capture
 The suite includes a Remote Access Trojan (RAT) written in Python for Windows platforms. This tool is capable of capturing audio, screenshots, and photos, which can be exfiltrated via email. It serves as an educational tool to demonstrate vulnerabilities in systems.
