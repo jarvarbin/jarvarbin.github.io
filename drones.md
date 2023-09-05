@@ -2,14 +2,12 @@
 
 ---
 layout: page
-title: Writings
-permalink: /writings/
+title: Drones
+permalink: /writing/drones/
 ---
 
 
-[Aquí están mis escritos](/writings/)
-
-All posts:
+Articulo de drones
 
 - [Droneados: Hacking DJI](# )
 - [IPFS: Beneficio, usos y abusos ](#)
