@@ -5,10 +5,10 @@ layout: page
 title: Writings
 permalink: /writings/
 ---
-
+s
 [Aquí están mis escritos](/writings/)
 
-Aquí puedes listar tus escritos.
+All posts:
 
 - [Artículo 1](# Droneados: Hacking DJI)
 - [Artículo 2](#)
