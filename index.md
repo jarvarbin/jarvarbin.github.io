@@ -8,18 +8,12 @@ Before becoming a pentester in a red team, I worked in various capacities where 
 
 Just like my earlier experiences where I was involved in various research and development roles, my current focus is on proactively identifying vulnerabilities and enhancing system security. Outside of work, I am an enthusiastic individual who enjoys drones, technology, and electronics.
 
+
 &nbsp;  
-&nbsp;  
-&nbsp;  
+&nbsp;   
 &nbsp;  
 
----
-&nbsp;  
-&nbsp;  
-&nbsp;  
-</br>
-</br>
-</br>
+
 ### Writings
 
 - [Dronea2: Drone Control and Cybersecurity](#dronea2-drone-control-and-cybersecurity)
@@ -35,40 +29,27 @@ Just like my earlier experiences where I was involved in various research and de
 - [Kubernetes Pentesting](#python-rat-for-windows)
 
 
-
-</br>
-</br>
-
 &nbsp;  
-&nbsp;  
-&nbsp;  
+&nbsp;   
 &nbsp;  
 
----
-&nbsp;  
-&nbsp;  
-&nbsp; 
+
 ### Latest GitHub Repositories
 
 - [Email Notification for Gophish](https://github.com/jarvarbin/gophish-mail-alert) - A brief description.
 - [Repository 2](https://github.com/yourusername/repository2) - A brief description.
 
+
+
 &nbsp;  
+&nbsp;   
 &nbsp;  
-&nbsp;  
-&nbsp;  
-</br>
-</br>
 
 ---
-&nbsp;  
-&nbsp;  
-&nbsp; 
 
 ### Lastes Posts
 
 &nbsp;  
-&nbsp; 
 ```
 
                \ /                                          \   /
@@ -92,7 +73,6 @@ Just like my earlier experiences where I was involved in various research and de
 
 ---
 &nbsp;  
-&nbsp; 
 ```
  .----------------.  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. || .--------------. |
@@ -113,7 +93,6 @@ This section discusses the role of drones in the current technological landscape
 [IPFS: Benefits, Uses, and Abuses](#ipfs-benefits-uses-and-abuses)
 ---
 &nbsp;  
-&nbsp; 
 ```
 
                \
@@ -138,7 +117,6 @@ The suite incorporates an NLP engine focused on tokenization, crawling, and clas
 
 ---
 &nbsp;  
-&nbsp; 
 ```
                           .
                           A       ;
@@ -172,7 +150,6 @@ The suite incorporates an NLP engine focused on tokenization, crawling, and clas
 An integrated notification system for the Gophish framework is included, designed to alert administrators via email about potential phishing attacks. This feature enhances the ability to respond to security threats in a timely manner.
 
 ---
-&nbsp;  
 &nbsp; 
 ```
 
