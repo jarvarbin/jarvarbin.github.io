@@ -10,19 +10,15 @@ All posts:
 
 
 ---
-
-
-## Little summary
-
-
 ### Dronea2: Control of Drones and Cybersecurity
 `Dronea2` is a drone control software with integrated cybersecurity features. Targeting specifically DJI Tello drones, this suite offers piloting capabilities, real-time facial detection via OpenCV, and cybersecurity tools to detect and mitigate drone-specific attacks.
+[Dronea2: Drone Control and Cybersecurity](#dronea2-drone-control-and-cybersecurity)
 
 ---
 
 ### Benefits, Abuses, and the Rise of Decentralized Threats (IPFS)
 This section discusses the role of drones in the current technological landscape, along with the potential risks and abuses. It also explores how IPFS (InterPlanetary File System) can be both an asset and a risk, especially in decentralized networks.
-
+[IPFS: Benefits, Uses, and Abuses](#ipfs-benefits-uses-and-abuses)
 ---
 
 ### Natural Language Processing with News Tokenization, Crawling, and Classification
