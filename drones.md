@@ -24,6 +24,11 @@ Este proyecto en Python utiliza múltiples bibliotecas para llevar a cabo la int
 
 Estas nuevas capacidades incrementan significativamente el alcance y la flexibilidad del proyecto, permitiendo una variedad más amplia de pruebas e investigaciones.
 
+
+&nbsp;   
+&nbsp;   
+
+
 ### Importancia de los Drones en la Guerra Mosaico y Multidominio
 
 La guerra mosaico y multidominio es un concepto moderno de operaciones militares que involucra la coordinación de diferentes plataformas y dominios (tierra, mar, aire, ciberespacio, y espacio exterior) para lograr una ventaja táctica. Los drones han surgido como un componente crucial en este paradigma.
@@ -36,12 +41,24 @@ Tercero, la autonomía de los drones permite su uso en operaciones prolongadas y
 
 Por último, los drones pueden ser más económicos y rápidos de producir que otros sistemas militares, lo que permite a las fuerzas armadas adaptarse más rápidamente a nuevas amenazas y escenarios. Estas ventajas hacen de los drones un elemento vital en la evolución hacia formas de conflicto más adaptativas y dinámicas, como la guerra mosaico y multidominio.
 
+&nbsp;   
+&nbsp;   
+
+
 ### Resumen de Seguridad en Drones: Caso de Estudio con DJI
 
 Los drones han capturado la imaginación de personas de todas las edades, ofreciendo una mezcla única de tecnología y entretenimiento. Sin embargo, también presentan riesgos de ciberseguridad que a menudo son pasados por alto. 
 
+&nbsp;   
+&nbsp;   
+
+
 #### Importancia de la Seguridad
 Dada la creciente popularidad de drones como el Tello de DJI, asequible y fácil de usar, es imperativo entender los riesgos de ciberseguridad asociados. Estos dispositivos utilizan WiFi para la comunicación entre el dron y el piloto, lo que podría abrir la puerta a varios tipos de ataques si no se toman medidas de seguridad adecuadas.
+
+&nbsp;   
+&nbsp;   
+
 
 #### Configuración y Comunicación
 El dron Tello se conecta a un smartphone a través de una aplicación. Inicialmente, crea un punto de acceso sin contraseña para que el teléfono se conecte. La aplicación permite comandos de vuelo, transmisión de video y almacenamiento de fotos. 
@@ -53,7 +70,10 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
     - 8890/tcp para datos de estado
     - 11111/udp para transmisión de video
 
+
 &nbsp;   
+&nbsp;   
+
 
 ## Vulnerabilidades Identificadas
 
@@ -69,13 +89,19 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
 ```
 
 
+
 &nbsp;   
+&nbsp;   
+
 
 ### Objetivo 1: Denegación de Servicio
 - **Metodología**: Uso de `hping3` para enviar paquetes TCP de sincronización.
 - **Resultado**: Pérdida total de control sobre el dron y la transmisión de video.
 
+
 &nbsp;   
+&nbsp;   
+
 
 ### Objetivo 2: Suplantación de ARP
 - **Descripción**: Identificar la posibilidad de un ataque Man-in-the-Middle (MiTM) mediante la explotación de la confianza en el protocolo ARP.
@@ -89,18 +115,25 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
      - Comando: `arpspoof -i wlanX -t 192.168.10.1 192.168.10.2`
 - **Resultado**: Posibilidad de interceptar o manipular el tráfico de red entre el dron y su controlador, exponiendo la falta de medidas de seguridad contra ataques de envenenamiento ARP.
 
+
 &nbsp;   
+&nbsp;   
+
 
 ### Objetivo 3: Intercepción de Video
 - **Metodología**: Uso de la herramienta `FFmpeg` para capturar el tráfico de video UDP.
 - **Resultado**: Éxito en la intercepción del video, aunque con alto riesgo para el atacante.
 
+
 &nbsp;   
+&nbsp;   
+
 
 ### Objetivo 4: Inyección de Comandos
 - **Metodología**: Uso del SDK de Tello para enviar instrucciones maliciosas.
 - **Resultado**: Pérdida total del control sobre el dron y posibilidad de realizar acciones peligrosas.
 
+&nbsp;   
 &nbsp;   
 
 
@@ -130,11 +163,19 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
 - `PIL`
 - `pyimagesearch`
 
+&nbsp;   
+&nbsp;   
+
+
 ## Instalación de dependencias
 
 ```  bash
 pip install colorama pyfiglet wifi netifaces nmap pygame numpy opencv-python djitellopy torch torchvision imageio Pillow pyimagesearch
 ```  
+
+&nbsp;   
+&nbsp;   
+
 
 ## Estructura del Código
 
@@ -142,29 +183,53 @@ pip install colorama pyfiglet wifi netifaces nmap pygame numpy opencv-python dji
 
 - Se importan todas las bibliotecas requeridas.
 
+&nbsp;   
+&nbsp;   
+
+
 ### Configuraciones iniciales
 
 - Se obtienen las interfaces de red disponibles y se selecciona una.
 - Se inicializa Colorama para colorear la salida de la terminal.
 - Se muestra un banner de bienvenida utilizando ASCII art.
 
+&nbsp;   
+&nbsp;   
+
+
 ### Funciones de Deteción de Rostros
 
 - Utiliza OpenCV para detectar rostros en un marco de video.
 
+&nbsp;   
+&nbsp;   
+
+
 ### Clase `FrontEnd`
 
 - Se encarga de la interfaz gráfica utilizando Pygame.
-  
+ 
+&nbsp;   
+&nbsp;   
+
+ 
 ### Funciones de Redes
 
 - `buscar_redes`: Busca redes WiFi disponibles.
 - `imprimir_redes`: Imprime las redes WiFi encontradas.
 - `seleccionar_red`: Permite seleccionar una red WiFi.
 
+&nbsp;   
+&nbsp;   
+
+
 ### Manejo de Señales
 
 - `signal_handler`: Maneja la interrupción para cerrar las ventanas de OpenCV.
+
+&nbsp;   
+&nbsp;   
+
 
 ## Características Principales
 
@@ -178,6 +243,10 @@ pip install colorama pyfiglet wifi netifaces nmap pygame numpy opencv-python dji
 8. **Transmisión de Video en Tiempo Real del Dron Tello**: Utiliza `ffplay` para mostrar la transmisión de video en vivo del dron Tello.
 
 
+&nbsp;   
+&nbsp;   
+
+
 ---
 
 ## Detalle del Código
@@ -185,6 +254,10 @@ pip install colorama pyfiglet wifi netifaces nmap pygame numpy opencv-python dji
 ### Importación de Bibliotecas
 
 Se importan todas las bibliotecas necesarias al inicio del script.
+
+&nbsp;   
+&nbsp;   
+
 
 ### Selección de Tarjeta de Red
 
@@ -195,6 +268,10 @@ interfaces = ni.interfaces()
 ...
 print("Tarjeta de red seleccionada:", nets)
 ```  
+
+&nbsp;   
+&nbsp;   
+
 
 ### Inicialización de la Interfaz Gráfica
 
@@ -207,6 +284,10 @@ class FrontEnd(object):
         ...
 ```  
 
+&nbsp;   
+&nbsp;   
+
+
 ### Control de Dron
 
 Se utilizan eventos de teclado para controlar el dron.
@@ -218,6 +299,10 @@ def keyup(self, key):
     ...
 ```  
 
+&nbsp;   
+&nbsp;   
+
+
 ### Detección de Rostros
 
 Se utiliza la biblioteca OpenCV para detectar rostros en la transmisión de video.
@@ -226,6 +311,10 @@ Se utiliza la biblioteca OpenCV para detectar rostros en la transmisión de vide
 def draw_faces(frame):
     ...
 ```  
+
+&nbsp;   
+&nbsp;   
+
 
 ### Manejo de Redes Wi-Fi
 
@@ -240,9 +329,17 @@ def seleccionar_red(redes):
     ...
 ```  
 
+&nbsp;   
+&nbsp;   
+
+
 ### Menú Principal
 
 - Provee opciones para distintas funcionalidades como detección de drones, interrupción de señal, transmisión de video, etc.
+
+&nbsp;   
+&nbsp;   
+
 
 ### Nuevas Funciones (Actualización)
 
@@ -267,19 +364,27 @@ def seleccionar_red(redes):
 - **Opción '44'**: Utiliza una red neuronal preentrenada (fasterrcnn_resnet50_fpn) para la detección de objetos. Se ha implementado con PyTorch y se usa para identificar objetos en cada frame capturado del feed de video. Hay un condicional para verificar si CUDA está disponible y, de ser así, la computación se realizará en la GPU.
 
 
+&nbsp;   
+&nbsp;   
+
+
 
 ## Requisitos
 
 Antena wifi usb
 Instalar dependencias
 
+&nbsp;   
+&nbsp;   
+
+
 ## Advertencia
 
 El uso inadecuado de este software puede ser ilegal. Utiliza este código solo en redes y dispositivos para los cuales tienes permiso.
 
-## Contribuciones
+&nbsp;   
+&nbsp;   
 
-Las contribuciones son bienvenidas. Por favor, abre un issue o realiza un pull request para cualquier mejora.
 
 ## Licencia
 
