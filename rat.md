@@ -1,7 +1,7 @@
 # Python-RAT
 Python RAT for Windows
 
-s
+ss
 
 # Descripción del Proyecto
 
