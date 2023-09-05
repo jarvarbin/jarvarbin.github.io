@@ -2,7 +2,7 @@ s
 ---
 layout: page
 title: Writings
-permalink: /writing/
+permalink: /blog/page
 ---
 Aquí puedes listar tus escritos.wdwd
 
