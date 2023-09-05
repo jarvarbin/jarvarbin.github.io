@@ -17,6 +17,9 @@ Just like my earlier experiences where I was involved in various research and de
 &nbsp;  
 &nbsp;  
 &nbsp;  
+</br>
+</br>
+</br>
 ### Writings
 
 - [Dronea2: Drone Control and Cybersecurity](#dronea2-drone-control-and-cybersecurity)
@@ -24,6 +27,17 @@ Just like my earlier experiences where I was involved in various research and de
 - [Natural Language Processing with News and Elasticsearch](#natural-language-processing-with-news-and-elasticsearch)
 - [Email Notification for Gophish](#email-notification-for-gophish)
 - [Python RAT for Windows](#python-rat-for-windows)
+- [Polluted Prototype](#python-rat-for-windows)
+- [Linkedin Connection Booster](#python-rat-for-windows)
+- [Acunetix API delete targets](#python-rat-for-windows)
+- [Linkedin Connection Booster](#python-rat-for-windows)
+- [DLL Concepts](#python-rat-for-windows)
+- [Kubernetes Pentesting](#python-rat-for-windows)
+
+
+
+</br>
+</br>
 
 &nbsp;  
 &nbsp;  
@@ -43,6 +57,8 @@ Just like my earlier experiences where I was involved in various research and de
 &nbsp;  
 &nbsp;  
 &nbsp;  
+</br>
+</br>
 
 ---
 &nbsp;  
