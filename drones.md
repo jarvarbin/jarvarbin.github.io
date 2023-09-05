@@ -55,13 +55,15 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
 
 
 ## Vulnerabilidades Identificadas
-| Amenaza                   | Riesgo | CVSS                       |
-| ------------------------- | ------ | -------------------------- |
-| Denegación de servicio    | 7.7    | AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H |
-| Suplantación de identidad ARP | 7.1 | AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N |
-| Intercepción de video     | 7.7    | AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H |
-| Inyección de instrucciones | 7.8    | AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H |
 
+| ## Vulnerabilidades Identificadas                                                 |                                           |                                           |   |   |
+|-----------------------------------------------------------------------------------|-------------------------------------------|-------------------------------------------|---|---|
+| \| Amenaza                                                                        | \| Riesgo \| CVSS                         | \|                                        |   |   |
+| \| ------------------------- \| ------ \| -------------------------- \|           |                                           |                                           |   |   |
+| \| Denegación de servicio                                                         | \| 7.7                                    | \| AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H \| |   |   |
+| \| Suplantación de identidad ARP \| 7.1 \| AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N \| |                                           |                                           |   |   |
+| \| Intercepción de video                                                          | \| 7.7                                    | \| AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H \| |   |   |
+| \| Inyección de instrucciones \| 7.8                                              | \| AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H \| |                                           |   |   |
 ## Ataques Demostrados
 
 ### Objetivo 1: Denegación de Servicio
@@ -88,7 +90,7 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
 - **Metodología**: Uso del SDK de Tello para enviar instrucciones maliciosas.
 - **Resultado**: Pérdida total del control sobre el dron y posibilidad de realizar acciones peligrosas.
 
-## Conclusión
+### Conclusión
 Los drones, como el DJI Tello, pueden ser vulnerables a varios tipos de ataques cibernéticos que pueden tener graves consecuencias. Es crucial abordar estas vulnerabilidades para garantizar una operación segura. Además, los fabricantes deben incorporar medidas de seguridad más robustas en el diseño de estos dispositivos.
 
 
