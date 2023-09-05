@@ -24,7 +24,21 @@
         text-align: center;
         text-decoration: none;
       }
+          * {
+      margin: 0;
+      padding: 0;
+    }
 
+    canvas {
+      display: block;
+    }
+
+
+    #snowfall {
+      width: 100%;
+      height: 50vh;
+      background: cornflowerblue;
+    }
     </style>
     {% include head-custom.html %}
     {% seo %}
@@ -51,6 +65,7 @@
         </section>
       </div>
     </header>
+    <div id="snowfall"></div>
     <div class="container">
       <section id="main_content">
         {{ content }}
@@ -68,13 +83,12 @@
             bottom: 0;
             left: 0;
             right: 0;
-            opacity: 0.1;
           }
 
           .fractal {
             width: 60px;
             height: 20px;
-            background-color: #67b46d3a;
+            background-color: #67B46D;
             border-radius: 20px;
             display: block;
             position: relative; 
@@ -160,7 +174,47 @@
               </i>
           </i>
       </i>
-    
+    <script>
+const snowflakes = {
+  "particles": {
+    "number": {
+      "value": 100
+    },
+    "shape": {
+      "type": "circle"
+    },
+    "size": {
+      "value": 10,
+      "random": true
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 2,
+      "direction": "bottom",
+      "straight": false
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false
+      }
+    },
+    "modes": {
+      "push": {
+        "particles_nb": 1
+      }
+    }
+  }
+}
+
+particlesJS("snowfall", snowflakes);
+
+    </script>
     </div>
   </body>
 </html>
