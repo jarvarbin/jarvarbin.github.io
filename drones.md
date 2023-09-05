@@ -57,14 +57,15 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
 
 ## Vulnerabilidades Identificadas
 
-| ## Vulnerabilidades Identificadas                                                 |                                           |                                           |   |   |
-|-----------------------------------------------------------------------------------|-------------------------------------------|-------------------------------------------|---|---|
-| \| Amenaza                                                                        | \| Riesgo \| CVSS                         | \|                                        |   |   |
-| \| ------------------------- \| ------ \| -------------------------- \|           |                                           |                                           |   |   |
-| \| Denegación de servicio                                                         | \| 7.7                                    | \| AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H \| |   |   |
-| \| Suplantación de identidad ARP \| 7.1 \| AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N \| |                                           |                                           |   |   |
-| \| Intercepción de video                                                          | \| 7.7                                    | \| AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H \| |   |   |
-| \| Inyección de instrucciones \| 7.8                                              | \| AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H \| |                                           |   |   |
+```
+|     Amenaza                             |     Riesgo    |     CVSS                                   |
+|-----------------------------------------|---------------|--------------------------------------------|
+|     1. Denegación de servicio           |     7.7       |     AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H    |
+|     2. Suplantación de identidad ARP    |     7.1       |     AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N    |
+|     3. Interceptar video                |     7.7       |     AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H    |
+|     4. Inyección de instrucciones       |     7.8       |     AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H    |
+```
+
 ## Ataques Demostrados
 
 &nbsp;   
