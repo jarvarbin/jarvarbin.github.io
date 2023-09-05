@@ -41,3 +41,13 @@ permalink: /writings/
 
 [Aquí están mis escritos](/writings/)
 
+
+
+
+---
+layout: page
+title: Writings
+permalink: /pages/
+---
+
+[Aquí están mis escritos](/pages/)
