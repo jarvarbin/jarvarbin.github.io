@@ -9,13 +9,14 @@ permalink: /writings/
 
 [Aquí están mis escritos](/writings/)
 
-All posts - r:
+All posts:
 
 - [Dronea2: Drone Control and Cybersecurity](#dronea2-drone-control-and-cybersecurity)
 - [IPFS: Benefits, Uses, and Abuses](#ipfs-benefits-uses-and-abuses)
 - [Natural Language Processing with News and Elasticsearch](#natural-language-processing-with-news-and-elasticsearch)
 - [Email Notification for Gophish](#email-notification-for-gophish)
 - [Python RAT for Windows](#python-rat-for-windows)
+
 
 ## Dronea2: Control of Drones and Cybersecurity
 `Dronea2` is a specialized software aimed at providing more secure and versatile drone control, particularly targeting DJI Tello drones. The project integrates functionalities for drone piloting, real-time facial detection through OpenCV, and a comprehensive set of cybersecurity tools to detect and mitigate drone-specific attacks.
