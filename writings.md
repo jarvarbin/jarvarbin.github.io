@@ -1,14 +1,4 @@
 
-
----
-layout: page
-title: Writings
-permalink: /writings/
----
-
-
-[Aquí están mis escritos](/writings/)
-
 ## Writings
 All posts:
 
