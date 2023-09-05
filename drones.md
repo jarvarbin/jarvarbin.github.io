@@ -53,6 +53,7 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
     - 8890/tcp para datos de estado
     - 11111/udp para transmisión de video
 
+&nbsp;   
 
 ## Vulnerabilidades Identificadas
 
@@ -66,9 +67,13 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
 | \| Inyección de instrucciones \| 7.8                                              | \| AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H \| |                                           |   |   |
 ## Ataques Demostrados
 
+&nbsp;   
+
 ### Objetivo 1: Denegación de Servicio
 - **Metodología**: Uso de `hping3` para enviar paquetes TCP de sincronización.
 - **Resultado**: Pérdida total de control sobre el dron y la transmisión de video.
+
+&nbsp;   
 
 ### Objetivo 2: Suplantación de ARP
 - **Descripción**: Identificar la posibilidad de un ataque Man-in-the-Middle (MiTM) mediante la explotación de la confianza en el protocolo ARP.
@@ -82,13 +87,19 @@ El dron Tello se conecta a un smartphone a través de una aplicación. Inicialme
      - Comando: `arpspoof -i wlanX -t 192.168.10.1 192.168.10.2`
 - **Resultado**: Posibilidad de interceptar o manipular el tráfico de red entre el dron y su controlador, exponiendo la falta de medidas de seguridad contra ataques de envenenamiento ARP.
 
+&nbsp;   
+
 ### Objetivo 3: Intercepción de Video
 - **Metodología**: Uso de la herramienta `FFmpeg` para capturar el tráfico de video UDP.
 - **Resultado**: Éxito en la intercepción del video, aunque con alto riesgo para el atacante.
 
+&nbsp;   
+
 ### Objetivo 4: Inyección de Comandos
 - **Metodología**: Uso del SDK de Tello para enviar instrucciones maliciosas.
 - **Resultado**: Pérdida total del control sobre el dron y posibilidad de realizar acciones peligrosas.
+
+&nbsp;   
 
 ### Conclusión
 Los drones, como el DJI Tello, pueden ser vulnerables a varios tipos de ataques cibernéticos que pueden tener graves consecuencias. Es crucial abordar estas vulnerabilidades para garantizar una operación segura. Además, los fabricantes deben incorporar medidas de seguridad más robustas en el diseño de estos dispositivos.
