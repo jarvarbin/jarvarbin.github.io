@@ -37,6 +37,9 @@ Just like my earlier experiences where I was involved in various research and de
 ### Latest GitHub Repositories
 
 - [Email Notification for Gophish](https://github.com/jarvarbin/gophish-mail-alert) - A brief description.
+- [Linkedin Connection Booster](https://github.com/yourusername/repository2) - A brief description.
+- [Acunetix API delete targets](https://github.com/yourusername/repository2) - A brief description.
+- [Repository 2](https://github.com/yourusername/repository2) - A brief description.
 - [Repository 2](https://github.com/yourusername/repository2) - A brief description.
 
 
