@@ -1,8 +1,7 @@
 # IPFS and the Rise of Botnets: A Comprehensive Analysis (IV)
 ![Alt text](ipfs.png)
 
-This is a summary.
-You can read the full article at [LINK](#)
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Traditional Botnet Architectures](#traditional-botnet-architectures)
@@ -54,3 +53,6 @@ IPFS, short for InterPlanetary File System, is an advanced P2P technology origin
 
 ## Conclusion and Recommendations
 IPFS offers a double-edged sword in the field of cybersecurity. Its decentralized and robust design could pave the way for more secure data exchange, but these very features could be exploited for nefarious activities like botnets. It's crucial for cybersecurity professionals to adapt to these new challenges by developing specialized tools and protocols for detecting and mitigating IPFS-based threats.
+
+This is a summary.
+You can read the full article at [LINK](#)

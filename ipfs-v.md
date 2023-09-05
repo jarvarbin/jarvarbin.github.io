@@ -1,7 +1,6 @@
 # Decentralization and Security: The Dual Role of IPFS and Blockchain in Modern Cybercrime ( IPFS V )
 ![Alt text](ips.png)
-This is a summary.
-You can read the full article at [LINK](#)
+
 
 ## Abstract
 
@@ -32,3 +31,6 @@ Blocking IPFS gateways in malicious files will continue to be difficult due to I
 ## Conclusion
 
 The primary aim of this study is to raise awareness and prepare the research and security communities for new threats arising from blockchain and IPFS technologies. It underscores the need to develop effective strategies to combat these new forms of cybercrime. 
+
+This is a summary.
+You can read the full article at [LINK](#)
