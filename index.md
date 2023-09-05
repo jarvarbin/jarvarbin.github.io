@@ -17,7 +17,8 @@ Just like my earlier experiences where I was involved in various research and de
 ## Writings
 
 - [Dronea2: Drone Control and Cybersecurity](drones)
-- [IPFS and the Rise of Botnets: A Comprehensive Analysis (IV)](ipfs-iv)
+- [IPFS and the Rise of Botnets: A Comprehensive Analysis (IPFS IV)](ipfs-iv)
+- [Decentralization and Security: The Dual Role of IPFS and Blockchain in Modern Cybercrime (IPFS V)](ipfs-iv)
 - [Natural Language Processing with News and Elasticsearch](#natural-language-processing-with-news-and-elasticsearch)
 - [Email Notification for Gophish](#email-notification-for-gophish)
 - [Python RAT for Windows](#python-rat-for-windows)
