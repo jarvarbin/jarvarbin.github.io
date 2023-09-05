@@ -17,7 +17,7 @@ Just like my earlier experiences where I was involved in various research and de
 ## Writings
 
 - [Dronea2: Drone Control and Cybersecurity](drones)
-- [IPFS and the Rise of Botnets: A Comprehensive Analysis (IV)](#ipfs-iv)
+- [IPFS and the Rise of Botnets: A Comprehensive Analysis (IV)](ipfs-iv)
 - [Natural Language Processing with News and Elasticsearch](#natural-language-processing-with-news-and-elasticsearch)
 - [Email Notification for Gophish](#email-notification-for-gophish)
 - [Python RAT for Windows](#python-rat-for-windows)
@@ -72,7 +72,7 @@ Just like my earlier experiences where I was involved in various research and de
 
 ### Dronea2: Control of Drones and Cybersecurity
 `Dronea2` is a drone control software with integrated cybersecurity features. Targeting specifically DJI Tello drones, this suite offers piloting capabilities, real-time facial detection via OpenCV, and cybersecurity tools to detect and mitigate drone-specific attacks.
-[Dronea2: Drone Control and Cybersecurity](#drones)
+[Dronea2: Drone Control and Cybersecurity](drones)
 
 
 
@@ -96,7 +96,7 @@ Just like my earlier experiences where I was involved in various research and de
 ---
 ### IPFS and the Rise of Botnets: A Comprehensive Analysis (IV)
 This section discusses the role of drones in the current technological landscape, along with the potential risks and abuses. It also explores how IPFS (InterPlanetary File System) can be both an asset and a risk, especially in decentralized networks.
-[IPFS: Benefits, Uses, and Abuses](#ipfs-iv)
+[IPFS: Benefits, Uses, and Abuses](ipfs-iv)
 
 
 
