@@ -2,7 +2,7 @@ s
 ---
 layout: page
 title: Writings
-permalink: /writings/
+permalink: /writing/
 ---
 Aquí puedes listar tus escritos.
 
