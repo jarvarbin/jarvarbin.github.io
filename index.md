@@ -20,11 +20,8 @@ Just like my earlier experiences where I was involved in various research and de
 - [Repository 1](https://github.com/jarvarbin/gophish-mail-alert) - A brief description.
 - [Repository 2](https://github.com/yourusername/repository2) - A brief description.
 
----
-layout: page  # Esto aplica la plantilla de página.
-title: Writings
-permalink: /writings/  # URL personalizada para esta página.
----
+
+
 
 Aquí puedes listar tus escritos.
 
@@ -33,21 +30,12 @@ Aquí puedes listar tus escritos.
 - [Artículo 3](#)
 
 
----
-layout: page
-title: Writings
-permalink: /writings/
----
+s
 
 [Aquí están mis escritos](/writings/)
 
 
 
 
----
-layout: page
-title: Writings
-permalink: /pages/
----
 
 [Aquí están mis escritos](/pages/)
