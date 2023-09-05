@@ -13,3 +13,9 @@ Just like my earlier experiences where I was involved in various research and de
 - [Article 1](#)
 - [Article 2](#)
 - [Article 3](#)
+
+
+### Latest GitHub Repositories
+
+- [Repository 1](https://github.com/jarvarbin/gophish-mail-alert) - A brief description.
+- [Repository 2](https://github.com/yourusername/repository2) - A brief description.
