@@ -25,9 +25,19 @@ layout: page  # Esto aplica la plantilla de página.
 title: Writings
 permalink: /writings/  # URL personalizada para esta página.
 ---
-s
+
 Aquí puedes listar tus escritos.
 
 - [Artículo 1](#)
 - [Artículo 2](#)
 - [Artículo 3](#)
+
+
+---
+layout: page
+title: Writings
+permalink: /writings/
+---
+
+[Aquí están mis escritos](/writings/)
+
