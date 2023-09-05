@@ -10,32 +10,16 @@ Just like my earlier experiences where I was involved in various research and de
 
 ### Writings
 
-- [Article 1](#)
-- [Article 2](#)
-- [Article 3](#)
+- [Dronea2: Drone Control and Cybersecurity](#dronea2-drone-control-and-cybersecurity)
+- [IPFS: Benefits, Uses, and Abuses](#ipfs-benefits-uses-and-abuses)
+- [Natural Language Processing with News and Elasticsearch](#natural-language-processing-with-news-and-elasticsearch)
+- [Email Notification for Gophish](#email-notification-for-gophish)
+- [Python RAT for Windows](#python-rat-for-windows)
 
 
 ### Latest GitHub Repositories
 
-- [Repository 1](https://github.com/jarvarbin/gophish-mail-alert) - A brief description.
+- [Email Notification for Gophish](https://github.com/jarvarbin/gophish-mail-alert) - A brief description.
 - [Repository 2](https://github.com/yourusername/repository2) - A brief description.
 
 
-
-
-Aquí puedes listar tus escritos.
-
-- [Artículo 1](#)
-- [Artículo 2](#)
-- [Artículo 3](#)
-
-
-s
-
-[Aquí están mis escritos](/writings/)
-
-
-
-
-
-[Aquí están mis escritos](/pages/)
