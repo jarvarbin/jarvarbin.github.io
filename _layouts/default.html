@@ -9,7 +9,7 @@
       .description {
         color: green;
       }
-      
+
       .flex-container {
         display: flex;
         align-items: center;
@@ -36,6 +36,14 @@
         align-items: center;
       }
 
+      .btn-custom {
+        background-color: #FF5733;  /* Nuevo color de fondo */
+        color: #FFFFFF;  /* Color del texto */
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+
     </style>
     {% include head-custom.html %}
     {% seo %}
@@ -44,9 +52,6 @@
   <body>
     <header>
       <div class="container">
-        <!-- <a id="a-title" href="{{ '/' | relative_url }}"> -->
-        <!-- <h1>{{ site.title | default: site.github.repository_name }}</h1> -->
-        <!-- </a> -->
         <div class="flex-container">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPupF02VdN4fa8BaV0YzZJK-GwTIio_hoYJA&usqp=CAU" alt="Tu imagen">
           <nav>
@@ -59,8 +64,8 @@
         <h2 class="description">{{ site.description | default: site.github.project_tagline }}</h2>
         <section id="downloads">
           {% if site.show_downloads %}
-            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
-            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
+            <a href="{{ site.github.zip_url }}" class="btn btn-custom">Download as .zip</a>
+            <a href="{{ site.github.tar_url }}" class="btn btn-custom">Download as .tar.gz</a>
           {% endif %}
           <a href="{{ site.github }}" class="btn btn-github"><span class="icon"></span>Go to GitHub</a>
         </section>
