@@ -1,6 +1,8 @@
 # IPFS and the Rise of Botnets: A Comprehensive Analysis (IV)
 ![Alt text](ipfs.png)
 
+This is a summary.
+You can read the full article at [LINK](#)
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Traditional Botnet Architectures](#traditional-botnet-architectures)

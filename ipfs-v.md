@@ -1,5 +1,8 @@
 # Decentralization and Security: The Dual Role of IPFS and Blockchain in Modern Cybercrime ( IPFS V )
 ![Alt text](ips.png)
+This is a summary.
+You can read the full article at [LINK](#)
+
 ## Abstract
 
 Decentralized systems, such as distributed ledgers and the InterPlanetary File System (IPFS), aim to offer more open and robust services. Though designed to democratize information access and resist censorship, these technologies have also been embraced by cybercriminals, paving the way for illicit activities like ransomware. This evolving form of malicious software locks users out of their data and demands a ransom for its release, a growing concern primarily affecting businesses. 
