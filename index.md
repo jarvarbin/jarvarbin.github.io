@@ -143,7 +143,7 @@ El artículo aborda las capacidades revolucionarias que la red satelital de baja
 
 
 
-```
+
 
 
 ---
