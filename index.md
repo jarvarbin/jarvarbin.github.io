@@ -17,7 +17,7 @@ Just like my earlier experiences where I was involved in various research and de
 ## Writings
 
 - [Dronea2: Drone Control and Cybersecurity](drones)
-- [IPFS and the Rise of Botnets: A Comprehensive Analysis (IPFS IV)](ipfs-iv)
+- [Starlink](starlink)
 - [Decentralization and Security: The Dual Role of IPFS and Blockchain in Modern Cybercrime (IPFS V)](ipfs-v)
 - [Natural Language Processing with News and Elasticsearch](#natural-language-processing-with-news-and-elasticsearch)
 - [Email Notification for Gophish](#email-notification-for-gophish)
@@ -79,6 +79,41 @@ Just like my earlier experiences where I was involved in various research and de
 
 
 &nbsp;  
+
+
+```
+           .       .                   .       .      .     .      .
+          .    .         .    .            .     ______
+      .           .             .               ////////
+                .    .   ________   .  .      /////////     .    .
+           .            |.____.  /\        ./////////    .
+    .                 .//      \/  |\     /////////
+       .       .    .//          \ |  \ /////////       .     .   .
+                    ||.    .    .| |  ///////// .     .
+     .    .         ||           | |//`,/////                .
+             .       \\        ./ //  /  \/   .
+  .                    \\.___./ //\` '   ,_\     .     .
+          .           .     \ //////\ , /   \                 .    .
+                       .    ///////// \|  '  |    .
+      .        .          ///////// .   \ _ /          .
+                        /////////                              .
+                 .   ./////////     .     .
+         .           --------   .                  ..             .
+  .               .        .         .                       .
+                        ________________________
+____________------------                        -------------_________
+
+```
+---
+### Starlink 
+ This explanation covers the concept of beam steering, the role of phase shifting, and the way data is sent between Dishy and Starlink satellites. 
+
+
+
+&nbsp;  
+
+```
+
 
 ---
 ```
