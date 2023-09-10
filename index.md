@@ -17,7 +17,8 @@ Just like my earlier experiences where I was involved in various research and de
 ## Writings
 
 - [Dronea2: Drone Control and Cybersecurity](drones)
-- [Starlink](starlink)
+- [La Órbita de Internet: Cómo Funciona la Red Starlink](starlink)
+- [Telemtría para drones y Starlink ](Drones&Starlink.md)
 - [Decentralization and Security: The Dual Role of IPFS and Blockchain in Modern Cybercrime (IPFS V)](ipfs-v)
 - [Natural Language Processing with News and Elasticsearch](#natural-language-processing-with-news-and-elasticsearch)
 - [Email Notification for Gophish](#email-notification-for-gophish)
@@ -105,12 +106,42 @@ ____________------------                        -------------_________
 
 ```
 ---
-### Starlink 
+### La Órbita de Internet: Cómo Funciona la Red Starlink 
  This explanation covers the concept of beam steering, the role of phase shifting, and the way data is sent between Dishy and Starlink satellites. 
 
 
 
 &nbsp;  
+
+
+
+```
+⣿⣿⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣿⣿⣿⣿⣿
+⣿⡿⠿⠿⠿⠷⠿⠿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠿⠾⠿⠿⠿⢿⣿
+⣿⣿⣿⣿⣿⠟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠻⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣤⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣿⣿⣿⣿⣿
+⣿⣿⣿⠁⠀⠀⠀⠀⣿⣿⣿⣿⣿⣡⣤⣤⣌⣿⣿⣿⣿⣿⠀⠀⠀⠀⠈⣿⣿⣿
+⣿⣿⣿⣤⣤⣄⣀⣀⠀⠀⠀⢠⡾⢋⣤⣤⡙⢷⡄⠀⠀⠀⣀⣀⣠⣤⣤⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢷⣾⣧⡘⠿⠿⢃⣼⣷⡾⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⠟⠁⢀⣴⣿⡉⠻⠶⠶⠟⢉⣿⣦⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⡿⠟⠁⣠⣴⣿⣿⣿⣷⣶⣶⣶⣶⣾⣿⣿⣿⣦⣄⠈⠻⢿⣿⣿⣿⣿
+⣿⣿⣿⣿⠀⠀⢺⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡗⠀⠀⣿⣿⣿⣿
+⣿⣿⣿⣿⣷⣄⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⣠⣾⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣦⡀⠙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⢀⣴⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣷⣤⡾⠿⢿⣿⣿⣿⣿⣿⣿⡿⠿⢷⣤⣾⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⢸⣿⣿⣿⣿⣿⣿⡇⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣿⣿⣿⣿⣿⣿⣿⣿⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿
+
+```
+---
+### Telemtría para drones y Starlink 
+El artículo aborda las capacidades revolucionarias que la red satelital de baja latencia Starlink podría aportar a la telemetría de vehículos aéreos no tripulados (UAVs). Destaca ventajas clave como la comunicación bidireccional en tiempo real, la transmisión de grandes volúmenes de datos y vídeo en alta resolución, y múltiples capas de seguridad y cifrado de datos. Además, la arquitectura de Starlink proporciona redundancia, adaptabilidad y la posibilidad de integrarse con sistemas de navegación y control de vuelo avanzados. El artículo también menciona capacidades adicionales de nivel militar como encriptación avanzada, interoperabilidad con sistemas C4ISR y resistencia a ataques de jamming y spoofing.
+
+
+
+&nbsp;  
+
+
 
 ```
 
@@ -131,9 +162,8 @@ ____________------------                        -------------_________
 
 ```
 ---
-### IPFS and the Rise of Botnets: A Comprehensive Analysis (IV)
-This section discusses the role of drones in the current technological landscape, along with the potential risks and abuses. It also explores how IPFS (InterPlanetary File System) can be both an asset and a risk, especially in decentralized networks.
-[IPFS: Benefits, Uses, and Abuses](ipfs-iv)
+### IPFS and the Rise of Botnets
+Coming soon...
 
 
 
