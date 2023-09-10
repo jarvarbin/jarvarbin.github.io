@@ -47,29 +47,6 @@ La infraestructura de Starlink permite su integración con sistemas sofisticados
 
 Estas capacidades combinadas posicionan la simbiosis entre UAVs y Starlink como un factor potencialmente revolucionario en múltiples sectores, desde la industria hasta los servicios de emergencia.
 
-# La telemetría en vehículos aéreos no tripulados (UAVs) y Redes Satelitales de Baja Latencia
-
-La telemetría en vehículos aéreos no tripulados (UAVs, por sus siglas en inglés) constituye una de las aplicaciones potencialmente disruptivas para redes satelitales de baja latencia y alta capacidad como Starlink.
-
-## Comunicación Bidireccional en Tiempo Real
-
-Una ventaja significativa del empleo de la red Starlink en la telemetría para UAVs radica en la habilidad para facilitar la comunicación bidireccional en tiempo real.
-
-## Transmisión de Datos de Elevada Resolución
-
-La robusta capacidad de la red de Starlink permite la transmisión de elevados volúmenes de datos desde el UAV hacia la estación base.
-
-## Protocolos de Seguridad y Cifrado de Datos
-
-Teniendo en cuenta la potencial sensibilidad de las aplicaciones UAV en escenarios como vigilancia o aplicaciones militares, Starlink dispone de múltiples capas de seguridad y protocolos de cifrado de datos.
-
-## Redundancia Operativa y Fiabilidad de la Red
-
-La arquitectura de Starlink, compuesta por una constelación de satélites en órbita terrestre baja, ofrece un nivel excepcional de redundancia.
-
-## Adaptabilidad a Variadas Cargas de Trabajo y Condiciones Ambientales
-
-La red Starlink posee la capacidad de modular la calidad de la conexión en función de la carga de trabajo y las condiciones ambientales.
 
 ## Integración con Sistemas Avanzados de Navegación y Control de Vuelo
 
@@ -79,9 +56,6 @@ La infraestructura de Starlink permite su integración con sistemas sofisticados
 
 La red Starlink ofrece encriptación de nivel militar, incorporando algoritmos y protocolos que cumplen con las especificaciones de seguridad del Departamento de Defensa de Estados Unidos y la OTAN.
 
-## Sistema de Identificación y Autenticación Robustos
-
-La seguridad del sistema se ve reforzada mediante sistemas avanzados de identificación y autenticación que son compatibles con certificados militares y tarjetas inteligentes.
 
 ## Capacidad de Interoperabilidad con Sistemas C4ISR
 
