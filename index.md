@@ -36,7 +36,7 @@ Specialized in cybersecurity with a knack for leading projects and bridging tech
 
 
 ### Latest GitHub Repositories
-
+- [Email Notification for Gophish](https://github.com/jarvarbin/gophish-mail-alert) - Ecos de Guerra: Del Estruendo del AK-47 a la Sombra Silente de los Drones
 - [Email Notification for Gophish](https://github.com/jarvarbin/gophish-mail-alert) - Script to manage GoPhish campaigns and notify via email of any event
 - [Linkedin Connection Booster](https://github.com/jarvarbin/Linkedin-Connection-Booster) - A simple JavaScript automation script for increasing your LinkedIn connections by sending multiple connection requests.
 - [Polluted Prototype](https://github.com/jarvarbin/Prototype-Pollution-Test-jQuery) - The code snippet tests for prototype pollution vulnerability in JavaScript objects using jQuery's extend function. It alerts "Vulnerable 🚨 :(" if the prototype is polluted, otherwise it alerts "Nice! :) protected against Prototype Pollution".
@@ -51,6 +51,35 @@ Specialized in cybersecurity with a knack for leading projects and bridging tech
 &nbsp;  
 
 ### Latest Posts
+
+
+---
+```
+
+               \ /                                          \   /
+              --o--           `\\             //'      .____-/.\-____.
+                                \\           //             ~`-'~
+                                 \\. __-__ .//
+                       ___/-_.-.__`/~     ~\'__.-._-\___                    
+.|.       ___________.'__/__ ~-[ \.\'-----'/./ ]-~ __\__`.___________       .|.
+~o~~~~~~~--------______-~~~~~-_/_/ |   .   | \_\_-~~~~~-______--------~~~~~~~o~
+' `               + + +  (X)(X)  ~--\__ __/--~  (X)(X)  + + +               ' `
+                             (X) `/.\' ~ `/.\' (X)  
+                                 "\_/"   "\_/"
+
+
+```
+---
+
+### Ecos de Guerra: Del Estruendo del AK-47 a la Sombra Silente de los Drones
+El artículo compara el impacto histórico y táctico del AK-47 con el emergente uso de drones kamikaze en conflictos modernos, destacando cómo estas tecnologías han transformado la guerra y planteado desafíos éticos complejos.
+[Dronea2: Drone Control and Cybersecurity](drones)
+
+
+
+&nbsp;  
+
+
 
 
 ---
