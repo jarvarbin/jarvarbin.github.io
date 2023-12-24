@@ -13,7 +13,7 @@ Specialized in cybersecurity with a knack for leading projects and bridging tech
 
 
 ## Writings
-
+- [Ecos de guerra](https://github.com/jarvarbin/akdron) - Ecos de Guerra: Del Estruendo del AK-47 a la Sombra Silente de los Drones
 - [Dronea2: Drone Control and Cybersecurity](drones)
 - [La Órbita de Internet: Cómo Funciona la Red Starlink](starlink)
 - [Telemtría para drones y Starlink ](Drones&Starlink.md)
@@ -36,7 +36,7 @@ Specialized in cybersecurity with a knack for leading projects and bridging tech
 
 
 ### Latest GitHub Repositories
-- [Email Notification for Gophish](https://github.com/jarvarbin/gophish-mail-alert) - Ecos de Guerra: Del Estruendo del AK-47 a la Sombra Silente de los Drones
+- [Ecos de guerra](https://github.com/jarvarbin/akdron) - Ecos de Guerra: Del Estruendo del AK-47 a la Sombra Silente de los Drones
 - [Email Notification for Gophish](https://github.com/jarvarbin/gophish-mail-alert) - Script to manage GoPhish campaigns and notify via email of any event
 - [Linkedin Connection Booster](https://github.com/jarvarbin/Linkedin-Connection-Booster) - A simple JavaScript automation script for increasing your LinkedIn connections by sending multiple connection requests.
 - [Polluted Prototype](https://github.com/jarvarbin/Prototype-Pollution-Test-jQuery) - The code snippet tests for prototype pollution vulnerability in JavaScript objects using jQuery's extend function. It alerts "Vulnerable 🚨 :(" if the prototype is polluted, otherwise it alerts "Nice! :) protected against Prototype Pollution".
